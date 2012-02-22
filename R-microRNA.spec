@@ -9,11 +9,9 @@ Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-Biostrings 
-Requires:         R-Biostrings 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
-BuildRequires:    R-Biostrings 
-BuildRequires:    R-Biostrings 
+Requires:         R-Biostrings
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-Biostrings
 
 %description
 Different data resources for microRNAs and some functions for manipulating
