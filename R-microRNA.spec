@@ -1,14 +1,16 @@
 %global packname  microRNA
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          1.12.0
+Version:          1.16.0
 Release:          1
 Summary:          Data and functions for dealing with microRNAs
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/microRNA_1.16.0.tar.gz
 Requires:         R-Biostrings
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-Biostrings
