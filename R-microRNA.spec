@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          1.16.0
-Release:          1
+Release:          2
 Summary:          Data and functions for dealing with microRNAs
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
